@@ -1,0 +1,12 @@
+Model,Model_Family,MAE,RMSE,MAPE_percent,N_Evaluated,Evaluation_Protocol
+Naive Baseline,Naive,9.510425227076125,14.320584508005428,1.185863019349006,2890,full_series_next_day_baseline
+Linear Regression,Linear Regression,15.154165005531826,20.354361574185443,1.1081791746529286,578,80/20 chronological holdout
+ARIMA,ARIMA,92.97340267994365,111.64248743515871,6.978685121103909,610,80/20 chronological holdout
+SARIMA,SARIMA,13.35233378162846,17.837061332445522,0.9756592811964974,578,80/20 chronological holdout with rolling one-step forecasts
+Simple Exponential Smoothing,Exponential Smoothing,92.85769594262328,111.48664422284575,6.968477415048533,610,80/20 chronological holdout; multi-step forecast
+Holt Linear Trend,Exponential Smoothing,208.87657668229127,242.5615159691313,15.757383734596129,610,80/20 chronological holdout; multi-step forecast
+Holt Damped Trend,Exponential Smoothing,92.85768445621564,111.48662881979804,6.968476401711925,610,80/20 chronological holdout; multi-step forecast
+Multiple Linear Regression,Dynamic Regression,14.69883500876798,19.796700314915228,1.0750247211213857,582,80/20 chronological holdout; rolling one-step for other dynamic models
+Dynamic Regression AR(1),Dynamic Regression,13.324323717264082,17.84600260637359,0.9743858037085782,582,80/20 chronological holdout with rolling one-step forecasts
+"Dynamic Regression ARIMA(1,1,1)",Dynamic Regression,71.9179824155179,94.98440710428858,5.254405378842713,582,80/20 chronological holdout with rolling one-step forecasts
+Dynamic Regression with Lagged Predictors,Dynamic Regression,15.30285430506144,20.540907698723057,1.1191085035416335,582,80/20 chronological holdout; lagged-predictor regression

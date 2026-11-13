@@ -1,0 +1,5 @@
+Among the 11 model result(s) recorded in this experiment, **Naive Baseline** achieved the lowest recorded MAE at ₹9.51, with an RMSE of ₹14.32.
+
+**Comparability caution:** the saved results contain differing or missing evaluation protocols. Treat this as a preliminary leaderboard, not a definitive head-to-head ranking, until target dates and forecasting procedures are aligned.
+
+The lowest-error historical model and the highest/lowest future price forecast are different questions. A future prediction cannot be declared accurate until its target date has an observed closing price.
